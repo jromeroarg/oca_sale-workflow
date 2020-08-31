@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="group_use_product_ref_name_per_so_line" model="res.groups">
-        <field name="name">Usar ref+nombre en las lineas de las ordenes</field>
+    <record id="group_use_product_description_or_name_per_so_line" model="res.groups">
+        <field name="name">Usar nombre o descripcion de ventas en las lineas de las ordenes</field>
         <field name="category_id" ref="base.module_category_hidden"/>
     </record>
 
