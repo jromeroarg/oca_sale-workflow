@@ -1,12 +1,12 @@
 # Copyright 2013-15 Agile Business Group sagl (<http://www.agilebg.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
-    "name": "Sale order line Default Code Name",
+    "name": "Sale order line Description or Name",
     "version": "11.0.1.0.0",
     "category": "Sales Management",
     "author": "Agile Business Group, "
               "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/sale-workflow/",
+    "website": "https://github.com/jromero/sale-workflow/",
     "license": "AGPL-3",
     "depends": [
         "sale",
