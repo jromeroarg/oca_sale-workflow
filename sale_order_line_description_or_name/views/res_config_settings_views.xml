@@ -16,13 +16,6 @@
                         <div class="text-muted">
                             Permite usar nombre o descripcion para ventas del producto en la linea de la orden de venta
                         </div>
-<!–
-                        <div class="content-group" attrs="{'invisible': [('group_use_product_description_or_name_per_so_line' ,'=', False)]}">
-                            <div class="mt16">
-                                <field name="group_use_product_description_or_name_per_so_line_selection" widget="radio" class="o_light_label"/>
-                            </div>
-                        </div>
-–>
                     </div>
                 </div>
             </xpath>
