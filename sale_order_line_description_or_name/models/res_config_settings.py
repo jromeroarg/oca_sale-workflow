@@ -12,9 +12,9 @@ class ResConfigSettings(models.TransientModel):
         help="Permite usar o el nombre del producto, o la descripción del "
         " producto. Además puede anteponer el código del mismo"
         )
-    group_use_product_description_or_name_per_so_line_selection = fields.Selection([
-        ('only_name', 'Solo mostrar el nombre del producto'),
-        ('code_name', 'Mostrar [codigo] + nombre del producto'),
-        ('only_desc', 'Solo mostrar descripcion_para_ventas del producto'),
-        ('code_desc', 'Mostrar [Codigo] + descripcion_para_ventas del producto')
-        ], default='only_name')
+#    group_use_product_description_or_name_per_so_line_selection = fields.Selection([
+#        ('only_name', 'Solo mostrar el nombre del producto'),
+#        ('code_name', 'Mostrar [codigo] + nombre del producto'),
+#        ('only_desc', 'Solo mostrar descripcion_para_ventas del producto'),
+#        ('code_desc', 'Mostrar [Codigo] + descripcion_para_ventas del producto')
+#        ], default='only_name')
