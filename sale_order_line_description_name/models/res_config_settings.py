@@ -14,3 +14,10 @@ class ResConfigSettings(models.TransientModel):
         help="Permitir usar descricpion o nombre del producto en la linea "
         "de orden de venta."
         )
+
+    group_use_product_description_name_per_so_line_selection = fields.Selection([
+        ('only_name', 'Nombre del producto'),
+        ('code_name', '[Codigo] Nombre producto'),
+        ('only_desc', 'Descripcion del producto'),
+        ('code_desc', '[Codigo] Descripcion producto')
+        ], default='only_name')
