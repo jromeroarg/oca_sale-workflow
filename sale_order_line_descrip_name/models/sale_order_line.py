@@ -14,7 +14,7 @@ class SaleOrderLine(models.Model):
         if not self.product_id:  # pragma: no cover
             return res
         if (self.user_has_groups(
-                'sale_order_line_description_name.'
+                'sale_order_line_descrip_name.'
                 'group_use_product_descrip_name_per_so_line') and
                 self.product_id.description_sale):
             self.name = '[' + self.product_id.default_code + '] ' + self.product_id.name

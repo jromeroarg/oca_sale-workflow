@@ -9,8 +9,8 @@ class ResConfigSettings(models.TransientModel):
 
     group_use_product_descrip_name_per_so_line = fields.Boolean(
         "Permitir usar descripion o nombre del producto en las linea "
-        "de orden de venta", implied_group="sale_order_line_description_name."
-        "group_use_product_description_name_per_so_line",
+        "de orden de venta", implied_group="sale_order_line_descrip_name."
+        "group_use_product_descrip_name_per_so_line",
         help="Permitir usar descricpion o nombre del producto en la linea "
         "de orden de venta."
         )
