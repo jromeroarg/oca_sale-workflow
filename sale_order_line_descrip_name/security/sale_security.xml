@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+    <record id="group_use_product_descrip_name_per_so_line" model="res.groups">
+        <field name="name">Usar nombre o descripcion en la línea de venta</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    
 </odoo>
