@@ -13,7 +13,7 @@ class SaleOrderLine(models.Model):
         res = super(SaleOrderLine, self).product_id_change()
         if not self.product_id:  # pragma: no cover
             return res
-        if (self.product_id.description_sale):
+        if (self.group_use_product_descrip_name_per_so_line):
             if self.group_use_product_descrip_name_per_so_line_sel=='only_name'
                 self.name=self.product_id.name
             if self.group_use_product_descrip_name_per_so_line_sel=='code_name'
