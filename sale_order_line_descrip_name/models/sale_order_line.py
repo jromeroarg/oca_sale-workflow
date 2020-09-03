@@ -16,7 +16,7 @@ class SaleOrderLine(models.Model):
         if (self.user_has_groups(
                 'sale_order_line_descrip_name.'
                 'group_use_product_descrip_name_per_so_line')):
-            if (self.group_use_product_descrip_name_per_so_line_sel=='only_name'):
+            if (sale_order_line_descrip_name.group_use_product_descrip_name_per_so_line_sel=='only_name'):
                 self.name=self.product_id.name
             if (self.group_use_product_descrip_name_per_so_line_sel=='code_name'):
                 self.name = '[' + self.product_id.default_code + '] ' + self.product_id.name
