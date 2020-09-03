@@ -25,3 +25,4 @@ class SaleOrderLine(models.Model):
             if (self.group_use_product_descrip_name_per_so_line_sel=='only_name'):
                 self.name='[' + self.product_id.default_code + '] ' + self.product_id.description_sale
         return res
+#
