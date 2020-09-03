@@ -18,10 +18,10 @@ class SaleOrderLine(models.Model):
                 'group_use_product_descrip_name_per_so_line')):
             if (self.group_use_product_descrip_name_per_so_line_sel=='only_name'):
                 self.name=self.product_id.name
-            if (self.group_use_product_descrip_name_per_so_line_sel=='code_name')
+            if (self.group_use_product_descrip_name_per_so_line_sel=='code_name'):
                 self.name = '[' + self.product_id.default_code + '] ' + self.product_id.name
-            if (self.group_use_product_descrip_name_per_so_line_sel=='only_desc')
+            if (self.group_use_product_descrip_name_per_so_line_sel=='only_desc'):
                 self.name=self.product_id.description_sale
-            if (self.group_use_product_descrip_name_per_so_line_sel=='only_name')
+            if (self.group_use_product_descrip_name_per_so_line_sel=='only_name'):
                 self.name='[' + self.product_id.default_code + '] ' + self.product_id.description_sale
         return res
